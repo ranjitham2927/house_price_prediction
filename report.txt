@@ -1,0 +1,21 @@
+House Price Prediction with Linear Regression
+
+Dataset:
+- Boston Housing Dataset
+- Features used: RM, LSTAT, PTRATIO
+- Target variable: PRICE (Median value of owner-occupied homes)
+
+Steps:
+1. Loaded and explored the Boston housing dataset.
+2. Selected three key features (RM, LSTAT, PTRATIO) for modeling.
+3. Applied train-test split.
+4. Trained a Linear Regression model.
+5. Evaluated using Mean Squared Error and R² score.
+
+Insights:
+- RM (average number of rooms) shows a positive influence on price.
+- LSTAT (lower income population %) negatively impacts price.
+- PTRATIO (student-teacher ratio) inversely affects price.
+
+Conclusion:
+Linear regression gives a reasonable baseline model. For improved performance, more features or advanced models (e.g., Random Forest, XGBoost) can be tried.
